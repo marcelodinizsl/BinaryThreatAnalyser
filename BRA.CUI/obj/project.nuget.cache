@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJ68lPFZVU9G6BB+1WO2qxOgRXCiMnOHFmguUHtN0E9WSQv+AmAzydS2rxRJiJwwYXcD3AUTBfTC5t+SAnGwxg==",
+  "dgSpecHash": "kvwPTkLntxTUYoApqYOSRb2/v9t3y2TMaXpaCzVioUa83N2WnNdhVSUQ0eQ+0U9/QHxw/CgGE1wYszexjeZZkQ==",
   "success": true,
-  "projectFilePath": "C:\\code\\IPOG\\BTA.Core\\BTA.Core.csproj",
+  "projectFilePath": "C:\\code\\IPOG\\BRA.CUI\\BRA.CUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mdsl.CESAR-LDAP\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\mdsl.CESAR-LDAP\\.nuget\\packages\\virustotalnet\\2.0.0\\virustotalnet.2.0.0.nupkg.sha512"

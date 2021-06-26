@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mdsl.CESAR-LDAP\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mdsl.CESAR-LDAP\\.nuget\\packages"
+    ]
+  }
+}

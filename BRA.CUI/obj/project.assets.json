@@ -22,6 +22,19 @@
         "runtime": {
           "lib/netstandard2.0/VirusTotalNet.dll": {}
         }
+      },
+      "BTA.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "VirusTotalNet": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BTA.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BTA.Core.dll": {}
+        }
       }
     }
   },
@@ -68,11 +81,16 @@
         "virustotalnet.2.0.0.nupkg.sha512",
         "virustotalnet.nuspec"
       ]
+    },
+    "BTA.Core/1.0.0": {
+      "type": "project",
+      "path": "../BTA.Core/BTA.Core.csproj",
+      "msbuildProject": "../BTA.Core/BTA.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "VirusTotalNet >= 2.0.0"
+      "BTA.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -81,11 +99,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\IPOG\\BTA.Core\\BTA.Core.csproj",
-      "projectName": "BTA.Core",
-      "projectPath": "C:\\code\\IPOG\\BTA.Core\\BTA.Core.csproj",
+      "projectUniqueName": "C:\\code\\IPOG\\BRA.CUI\\BRA.CUI.csproj",
+      "projectName": "BRA.CUI",
+      "projectPath": "C:\\code\\IPOG\\BRA.CUI\\BRA.CUI.csproj",
       "packagesPath": "C:\\Users\\mdsl.CESAR-LDAP\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\IPOG\\BTA.Core\\obj\\",
+      "outputPath": "C:\\code\\IPOG\\BRA.CUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mdsl.CESAR-LDAP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,7 +118,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\code\\IPOG\\BTA.Core\\BTA.Core.csproj": {
+              "projectPath": "C:\\code\\IPOG\\BTA.Core\\BTA.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -111,12 +133,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "dependencies": {
-          "VirusTotalNet": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
