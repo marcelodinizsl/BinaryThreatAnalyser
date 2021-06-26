@@ -1,0 +1,9 @@
+C:\code\IPOG\BTA.Core\bin\Release\netcoreapp3.1\BTA.Core.deps.json
+C:\code\IPOG\BTA.Core\bin\Release\netcoreapp3.1\BTA.Core.dll
+C:\code\IPOG\BTA.Core\bin\Release\netcoreapp3.1\BTA.Core.pdb
+C:\code\IPOG\BTA.Core\obj\Release\netcoreapp3.1\BTA.Core.csprojAssemblyReference.cache
+C:\code\IPOG\BTA.Core\obj\Release\netcoreapp3.1\BTA.Core.csproj.CoreCompileInputs.cache
+C:\code\IPOG\BTA.Core\obj\Release\netcoreapp3.1\BTA.Core.AssemblyInfoInputs.cache
+C:\code\IPOG\BTA.Core\obj\Release\netcoreapp3.1\BTA.Core.AssemblyInfo.cs
+C:\code\IPOG\BTA.Core\obj\Release\netcoreapp3.1\BTA.Core.dll
+C:\code\IPOG\BTA.Core\obj\Release\netcoreapp3.1\BTA.Core.pdb

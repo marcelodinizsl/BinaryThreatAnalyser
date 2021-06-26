@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BRA.CUI": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Temp\\test00.snp"
+    }
+  }
+}
